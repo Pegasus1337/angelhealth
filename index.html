@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> AngelHealth | Home</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+    </script>
+</head>
+
+<body>
+    <div class="white-block"> </div>
+    <div class="white-block-2"></div>
+
+    <div class="row">
+        <div class="col-md-3 heading">
+            <img src="images/logo.png" alt="">
+            <h3> Angel Health</h3>
+        </div>
+        <div class="col-md-6 offset-md-3">
+            <div class="navigation-buttons">
+                <a href="#">Home</a>
+                <a href="#">Procedures</a>
+                <a class="active" href="#">Reservations</a>
+                <a href="#">Location</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 left-photo">
+            <img src="images/photo-left.png" alt="">
+            <p>Your Health is our utmost top priority ! </p>
+            <small> - Angel Health Doctors</small>
+        </div>
+        <div class="col-md-6 right-section">
+            <h3>Want to make An Appointment ? </h3>
+            <div class="form-container shadowed">
+                <div class="form">
+                    <img src="images/calendar.png" alt="">
+                    <h5> Reserve it Right Here </h3>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                            <select name="" id="" class="form-control">
+                                <option value="0">Select a Doctor</option>
+                                <option value="Doctor1">Doctor1</option>
+                                <option value="Doctor2">Doctor2</option>
+                                <option value="Doctor3">Doctor3</option>
+                                <option value="Doctor4">Doctor4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Appointment Date">
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"><img src="images/calender-icon.png" alt=""> Reserve</button>
+                        
+                       
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Reservation Confirmation </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                       <div >
+                                        <img  src="images/modal-img.png" alt="">
+                                        <p> Your Reservation has been successful  !
+
+                                        </p>
+                                       </div> 
+
+
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark"
+                                            data-dismiss="modal">Close This Window</button>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row footer">
+        <div class="social-media">
+            <a href="#?facebook"><img src="images/facebook.png" alt="#?facebook"></a>
+            <a href="#?linkedin"><img src="images/linkedin.png" alt="#?linkedin"></a>
+            <a href="#?twitter"><img src="images/twitter.png" alt="#?twitter"></a>
+            <a href="#?youtube"><img src="images/youtube.png" alt="#?youtube"></a>
+        </div>
+        <p> Designed By Slahiddine Bnj for #7dayswebsitechallenge #d4</p>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

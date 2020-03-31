@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0 ;
+}
+
+
+body{
+    background-color : rgb(221, 222, 223) ;
+    width : 100% ;
+    height : 100vh ;
+    position : relative ;
+    overflow-x : hidden ; 
+}
+
+.white-block {
+    margin: 0 ;
+    position :absolute ; 
+    top:0 ; 
+    left : 0 ;
+    width : 60% ;
+    height : 100% ;
+    background-color :  #EFECEC ;
+    /*clip-path: polygon(25% 0, 65% 0, 41% 100%, 0% 100%);*/
+    clip-path: polygon(42% 0, 88% 0, 51% 100%, 0% 100%);
+}
+
+.white-block-2 {
+    margin: 0 ;
+    position :absolute ; 
+    top:0 ; 
+    right : 0 ;
+    width : 60% ;
+    height : 100% ;
+    background-color :  #EFECEC ;
+    /*clip-path: polygon(25% 0, 65% 0, 41% 100%, 0% 100%);*/
+    clip-path: polygon(100% 0, 100% 38%, 78% 100%, 46% 100%, 84% 0);
+}
+
+
+.heading {
+    display:inline-flex ;
+}
+.heading img {
+    height : 50px ;
+    width : 50px ;
+    margin : 30px ;
+    margin-right : 10px ;
+}
+
+.heading h3{
+    margin-top: 35px ;
+    color : #00B8D4 ; 
+    font-family : Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
+.navigation-buttons {
+    margin-top : 55px;
+}
+
+.navigation-buttons a{
+    margin-left : 25px ;
+    margin-right : 25px ;
+    font-size : 19px ;
+    font-weight : 500 ;
+    font-family: Arial, Helvetica, sans-serif;
+    color :#154951 ;
+    text-decoration : none ;
+    padding : 10px;
+}
+
+.navigation-buttons a:visited{
+    color :#154951 ;
+    text-decoration : none ;
+}
+
+.navigation-buttons a:hover{
+    color :#168394 ;
+    border-bottom : solid 2px  #168394 ;
+    text-decoration : none ;
+
+}
+
+.active{
+    color :#168394 ;
+    border-bottom : solid 2px  #168394 ;
+    text-decoration : none ;
+}
+
+.left-photo img{
+    width : 70% ;
+    margin-left : 80px ;
+    margin-top : 20px ;
+}
+.left-photo p {
+    text-align :center ; 
+    color : #123339 ;
+    margin-top : 15px ; 
+    font-family :Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight : bold ;
+    font-size : 15px;
+    margin-bottom:0 ;
+
+}
+.footer{
+    margin-left : 0 ;
+    position : absolute ; 
+    bottom : 0 ;
+    width : 100% ;
+    background-color : #1F4287 ;
+    height : 50px ;
+}
+
+.right-section h3{
+    color : #1A6D7A;
+    text-align : center ; 
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size : 24px ;
+    margin-top : 10px ;
+}
+
+
+.left-photo small {
+    text-align : right ; 
+    margin-left: 350px  ;
+    margin-top : 0px ;
+    font-family : Arial, Helvetica, sans-serif ;
+    color : #123339 ;
+}
+
+.social-media{
+    position : absolute ; 
+    bottom : 23% ;
+    right : 8%  ;
+}
+
+.social-media img{
+    width : 14% ;
+    margin-left: 5px ;
+    margin-right : 5px ; 
+}
+
+.footer p{
+    margin:0 ;
+    padding : 0 ;
+    color : rgb(189, 183, 183) ; 
+    text-align : center ; 
+    position : absolute ; 
+    bottom : 13px ;
+    left : 30% ;
+}
+
+.form-container{
+    background-color : #879BB7 ;
+    width  : 400px ;
+    height : 350px ;
+    border-radius : 40px ;
+    margin : 0 auto ; 
+    margin-top : 30px;
+}
+.form h5{
+    color: #424D5B ;
+    text-align : center ;
+   display:inline-flex ;
+   font-family: 'Open Sans', sans-serif;
+   font-weight : 700 ;
+   margin-left : 5px; 
+    
+}
+
+.shadowed {
+    -webkit-box-shadow: 6px 6px 6px 0px rgba(90,84,248,1);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(90,84,248,1);
+    box-shadow: 6px 6px 6px 0px rgba(90,84,248,1);
+}
+
+.form img{
+    width : 20% ;
+    margin:0;
+    margin-left : 40px ;
+    margin-right : 0;
+}
+
+.form-group input{
+    width : 300px ;
+    border-radius : 24px ;
+    background-color: #FFFFFF ;
+    opacity : 0.62 ; 
+    margin : 0 auto ; 
+    text-align : center ; 
+
+}
+
+
+.form-group input::placeholder{
+    opacity : 1 ;
+    color :#1E225A ;
+    text-align : center ;
+    font-weight : 700 ;
+}
+
+
+.form-group select{
+    width : 300px ;
+    border-radius : 24px ;
+    background-color: #FFFFFF ;
+    opacity : 0.62 ; 
+    margin : 0 auto ; 
+    text-align : center ;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    -webkit-appearance: none;
+    background-position-x: 270px;
+    padding-right : 50px;
+}
+.form-group select option{
+    text-align : center ;
+    background-color : rgb(75, 97, 128) ; 
+    color : white ; 
+}
+.btn{
+    display : block ;
+    margin : 0 auto ;
+    border-radius :21px ;
+    text-align:center ;
+}
+
+.btn img{
+ margin:0;
+}
+
+.modal-body{
+  /*  background-color :#DEE5E8 ; */
+}
+.modal-body img{
+    display : block ;
+    margin : 0 auto ;
+}
+
+.modal p{
+    text-align :center ;
+    margin-top : 30px;
+    color : rgb(76, 91, 119) ; 
+    font-weight : 700 ;
+}
+
+
+
